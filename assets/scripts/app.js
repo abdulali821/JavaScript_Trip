@@ -1,6 +1,7 @@
-function add(num1, num2){
-    const result = num1+num2;
-    return result;
+let obj={
+    name: "Ali",
+    age: 21,
+    rollno: 22
 }
-let zxc;
-const res = add(1,2);
+console.log((obj.rollno+obj.age).);
+console.log(obj.age);
