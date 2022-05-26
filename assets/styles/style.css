@@ -4,8 +4,19 @@
     box-sizing: border-box;
 }
 
-.container{
-    height: 100vh;
-    width: 100%;
-    background-image: url(img/background.png);
+.grid{
+    border: blueviolet;
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat();
 }
+
+.grid div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+
